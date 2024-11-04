@@ -1,0 +1,25 @@
+@mixin grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	@media (min-width: 768px) {
+		grid-template-columns: repeat(4, 1fr);
+	}
+	@media (min-width: 768px) {
+		grid-template-columns: repeat(8, 1fr);
+	}
+	@media (min-width: 1024px) {
+		grid-template-columns: repeat(12, 1fr);
+		gap: 40px;
+	}
+}
+
+@mixin grid-fill {
+	grid-column: 4 span;
+	@media (min-width: 768px) {
+		grid-column: 8 span;
+	}
+	@media (min-width: 1024px) {
+		grid-column: 12 span;
+	}
+}

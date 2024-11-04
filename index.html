@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+			name="viewport"
+		/>
+		<meta content="ie=edge" http-equiv="X-UA-Compatible" />
+		<title>index page</title>
+
+		<script
+			src="https://api-maps.yandex.ru/2.1/?apikey=Your API key&lang=ru_RU"
+			type="text/javascript"
+		></script>
+		<link
+			href="./assets/plugins/swiper/swiper-bundle.min.css"
+			rel="stylesheet"
+		/>
+		<!-- стили проекта -->
+		<link href="./css/global.css" rel="stylesheet" />
+		<link href="./css/index.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="container">
+					<div class="header__wrapper">
+						<div class="header__logo">
+							<svg width="152" height="39" viewBox="0 0 152 39">
+								<use href="./assets/svg/sprite.svg#header__logo"></use>
+							</svg>
+						</div>
+						<div class="header__menu-wrap">
+							<ul class="header__menu">
+								<li><a href="#conference">о конференции</a></li>
+								<li><a href="#speakers">спикеры</a></li>
+								<li><a href="#partners">партнеры</a></li>
+							</ul>
+						</div>
+						<button class="header__burger" aria-label="Открыть меню">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="main">
+				<section class="promo">
+					<div class="container">
+						<h1 class="promo__title page-title-h1">
+							Digital —
+							<span>Осень</span>
+						</h1>
+						<div class="promo__info">
+							<span class="promo__date">23/07/24</span>
+							<span class="promo__time">10:00 </span>
+							<span class="promo__place">Академия Маяк</span>
+						</div>
+						<div class="promo__wrapper">
+							<div class="promo__banner">
+								<img src="./assets/img/promo.png" alt="" />
+							</div>
+							<div class="promo__address">
+								<svg width="37" height="37" viewBox="0 0 37 37">
+									<use href="./assets/svg/sprite.svg#pin"></use>
+								</svg>
+								<span>
+									г. Нижний Новгород Академия Маяк им. А.Д. Сахарова,
+									Нижне-Волжская набережная, д. 11
+								</span>
+							</div>
+						</div>
+						<div class="promo__links">
+							<button class="register__open btn btn--orange">
+								Стать участником
+							</button>
+							<a href="#tickets" class="btn btn--black">Программа </a>
+							<button class="btn btn--black become-partner__open">
+								Стать партнёром
+							</button>
+						</div>
+					</div>
+				</section>
+
+				<section class="free-conference">
+					<div class="container">
+						<h2 class="free-conference__title page-title-h2">
+							Бесплатная конференция
+						</h2>
+						<div class="free-conference__wrapper">
+							<div class="free-conference__content">
+								<div class="free-conference__caption">
+									в области маркетинга, рекламы и продвижения, коммуникации,
+									брендов и современных технологий.
+								</div>
+								<div class="free-conference__desc">
+									Топовые спикеры, инсайты, нетворкинг, афтерпати, воркшопы,
+									знакомства, креатив и мотивация.
+								</div>
+								<button
+									class="free-conference__btn btn btn--orange register__open"
+								>
+									стать участником
+								</button>
+							</div>
+							<div
+								class="free-conference__img animation"
+								data-animation="expand"
+							>
+								<img src="./assets/img/conference.png" alt="" />
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="speakers" class="speakers">
+					<div class="container">
+						<h2 class="speakers__title page-title-h2">Спикеры</h2>
+						<div class="speakers__tab tab">
+							<div class="speakers__tab-nav tab-nav">
+								<button class="btn tab-btn tab-btn-active" data-target-id="0">
+									Секция Название 1
+								</button>
+								<button class="btn tab-btn" data-target-id="1">
+									Секция Название 2
+								</button>
+							</div>
+							<div class="tab-content">
+								<div class="tab-pane tab-pane-show" data-id="0">
+									<div class="speakers__slider">
+										<div class="swiper-wrapper">
+											<div
+												class="speakers__item swiper-slide animation"
+												data-animation="expand"
+											>
+												<div class="speakers__img">
+													<img src="./assets/img/speaker.png" alt="" />
+												</div>
+												<div class="speakers__content">
+													<div class="speakers__topic">Marketing</div>
+													<div class="speakers__name">НАТАЛИЯ ТУЙГУНОВА</div>
+													<div class="speakers__desc">
+														<p>
+															Амбассадор сервиса аналитики и доминирования в
+															соцсетях LiveDune, вместе с командой топовых PRD
+															развиваем агентство генерации инфоповодов
+															MediaMarvel
+														</p>
+													</div>
+												</div>
+											</div>
+											<div
+												class="speakers__item swiper-slide animation"
+												data-animation="expand"
+											>
+												<div class="speakers__img">
+													<img src="./assets/img/speaker.png" alt="" />
+												</div>
+												<div class="speakers__content">
+													<div class="speakers__topic">Marketing</div>
+													<div class="speakers__name">НАТАЛИЯ ТУЙГУНОВА</div>
+													<div class="speakers__desc">
+														<p>
+															Амбассадор сервиса аналитики и доминирования в
+															соцсетях LiveDune, вместе с командой топовых PRD
+															развиваем агентство генерации инфоповодов
+															MediaMarvel
+														</p>
+													</div>
+												</div>
+											</div>
+											<div
+												class="speakers__item swiper-slide animation"
+												data-animation="expand"
+											>
+												<div class="speakers__img">
+													<img src="./assets/img/speaker.png" alt="" />
+												</div>
+												<div class="speakers__content">
+													<div class="speakers__topic">Marketing</div>
+													<div class="speakers__name">НАТАЛИЯ ТУЙГУНОВА</div>
+													<div class="speakers__desc">
+														<p>
+															Амбассадор сервиса аналитики и доминирования в
+															соцсетях LiveDune, вместе с командой топовых PRD
+															развиваем агентство генерации инфоповодов
+															MediaMarvel
+														</p>
+													</div>
+												</div>
+											</div>
+											<div
+												class="speakers__item swiper-slide animation"
+												data-animation="expand"
+											>
+												<div class="speakers__img">
+													<img src="./assets/img/speaker.png" alt="" />
+												</div>
+												<div class="speakers__content">
+													<div class="speakers__topic">Marketing</div>
+													<div class="speakers__name">НАТАЛИЯ ТУЙГУНОВА</div>
+													<div class="speakers__desc">
+														<p>
+															Амбассадор сервиса аналитики и доминирования в
+															соцсетях LiveDune, вместе с командой топовых PRD
+															развиваем агентство генерации инфоповодов
+															MediaMarvel
+														</p>
+													</div>
+												</div>
+											</div>
+											<div
+												class="speakers__item swiper-slide animation"
+												data-animation="expand"
+											>
+												<div class="speakers__img">
+													<img src="./assets/img/speaker.png" alt="" />
+												</div>
+												<div class="speakers__content">
+													<div class="speakers__topic">Marketing</div>
+													<div class="speakers__name">НАТАЛИЯ ТУЙГУНОВА</div>
+													<div class="speakers__desc">
+														<p>
+															Амбассадор сервиса аналитики и доминирования в
+															соцсетях LiveDune, вместе с командой топовых PRD
+															развиваем агентство генерации инфоповодов
+															MediaMarvel
+														</p>
+													</div>
+												</div>
+											</div>
+											<div
+												class="speakers__item swiper-slide animation"
+												data-animation="expand"
+											>
+												<div class="speakers__img">
+													<img src="./assets/img/speaker.png" alt="" />
+												</div>
+												<div class="speakers__content">
+													<div class="speakers__topic">Marketing</div>
+													<div class="speakers__name">НАТАЛИЯ ТУЙГУНОВА</div>
+													<div class="speakers__desc">
+														<p>
+															Амбассадор сервиса аналитики и доминирования в
+															соцсетях LiveDune, вместе с командой топовых PRD
+															развиваем агентство генерации инфоповодов
+															MediaMarvel
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="speakers__nav">
+											<div class="speakers__nav-pagination"></div>
+											<a href="" class="btn btn--black">смотреть программу</a>
+											<button class="speakers__nav-prev">
+												<svg width="24" height="24" viewBox="0 0 24 24">
+													<use href="./assets/svg/sprite.svg#left-arrow"></use>
+												</svg>
+												<span>назад</span>
+											</button>
+											<button class="speakers__nav-next">
+												<span>далее</span>
+												<svg width="24" height="24" viewBox="0 0 24 24">
+													<use href="./assets/svg/sprite.svg#left-arrow"></use>
+												</svg>
+											</button>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane" data-id="1"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="conference" class="conference">
+					<div class="container">
+						<h2 class="conference__title page-title-h2">О конференции</h2>
+						<div class="conference__wrapper">
+							<div class="conference__theme">
+								<div class="conference__theme-title">тематика конференции</div>
+								<ul>
+									<li class="animation" data-animation="fadeInLeft">DESIGN</li>
+									<li class="animation" data-animation="fadeInLeft">
+										MARKETING
+									</li>
+									<li class="animation" data-animation="fadeInLeft">
+										IT technologies
+									</li>
+									<li class="animation" data-animation="fadeInLeft">
+										blogging
+									</li>
+									<li class="animation" data-animation="fadeInLeft">
+										personal brand
+									</li>
+								</ul>
+							</div>
+							<div class="conference__info">
+								<div class="conference__info-title">DIGITAL — Осень</div>
+								<div class="conference__info-desc">
+									<p>
+										Это история о трендах. В программе всегда есть крупные
+										вендоры, которые рассказывают о своих новинках: «ВКонтакте»,
+										«Ростелеком», eLama и другие. Мы приглашаем руководителей
+										агентств, которые делятся актуальными кейсами и прогнозами.
+									</p>
+									<p>
+										Приятно осознавать, что это наш вклад в развитие отрасли,
+										это общественная деятельность. «Digital-Оттепель» – про
+										развитие сферы в регионе.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="conference__ticker">
+							<div class="swiper-wrapper">
+								<div class="conference__ticker-item swiper-slide">
+									<div class="conference__ticker-img">
+										<img src="./assets/img/conference1.png" alt="" />
+									</div>
+									<div class="conference__ticker-date">
+										<span>Весна</span>
+										<span>/2024</span>
+									</div>
+								</div>
+								<div class="conference__ticker-item swiper-slide">
+									<div class="conference__ticker-img">
+										<img src="./assets/img/conference2.png" alt="" />
+									</div>
+									<div class="conference__ticker-date">
+										<span>Весна</span>
+										<span>/2024</span>
+									</div>
+								</div>
+								<div class="conference__ticker-item swiper-slide">
+									<div class="conference__ticker-img">
+										<img src="./assets/img/conference3.png" alt="" />
+									</div>
+									<div class="conference__ticker-date">
+										<span>Весна</span>
+										<span>/2024</span>
+									</div>
+								</div>
+								<div class="conference__ticker-item swiper-slide">
+									<div class="conference__ticker-img">
+										<img src="./assets/img/conference4.png" alt="" />
+									</div>
+									<div class="conference__ticker-date">
+										<span>Весна</span>
+										<span>/2024</span>
+									</div>
+								</div>
+								<div class="conference__ticker-item swiper-slide">
+									<div class="conference__ticker-img">
+										<img src="./assets/img/conference5.png" alt="" />
+									</div>
+									<div class="conference__ticker-date">
+										<span>Весна</span>
+										<span>/2024</span>
+									</div>
+								</div>
+								<div class="conference__ticker-item swiper-slide">
+									<div class="conference__ticker-img">
+										<img src="./assets/img/conference6.png" alt="" />
+									</div>
+									<div class="conference__ticker-date">
+										<span>Весна</span>
+										<span>/2024</span>
+									</div>
+								</div>
+								<div class="conference__ticker-item swiper-slide">
+									<div class="conference__ticker-img">
+										<img src="./assets/img/conference7.png" alt="" />
+									</div>
+									<div class="conference__ticker-date">
+										<span>Весна</span>
+										<span>/2024</span>
+									</div>
+								</div>
+								<div class="conference__ticker-item swiper-slide">
+									<div class="conference__ticker-img">
+										<img src="./assets/img/conference8.png" alt="" />
+									</div>
+									<div class="conference__ticker-date">
+										<span>Весна</span>
+										<span>/2024</span>
+									</div>
+								</div>
+								<div class="conference__ticker-item swiper-slide">
+									<div class="conference__ticker-img">
+										<img src="./assets/img/conference9.png" alt="" />
+									</div>
+									<div class="conference__ticker-date">
+										<span>Весна</span>
+										<span>/2024</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="organizers">
+					<div class="container">
+						<h2 class="organizers__title page-title-h2">Организаторы</h2>
+						<div class="organizers__wrapper">
+							<div class="swiper-wrapper">
+								<div class="organizers__item active">
+									<div class="organizers__img">
+										<img src="./assets/img/organizer1.png" alt="" />
+									</div>
+									<div class="organizers__content">
+										<div class="organizers__num">/ 01</div>
+										<div class="organizers__name">
+											Константин <br />
+											Верховинский
+										</div>
+										<div class="organizers__desc">
+											<p>
+												генеральный директор агентства интернет-маркетинга R-Top
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="organizers__item">
+									<div class="organizers__img">
+										<img src="./assets/img/organizer2.png" alt="" />
+									</div>
+									<div class="organizers__content">
+										<div class="organizers__num">/ 02</div>
+										<div class="organizers__name">
+											Дарья <br />
+											бозакина
+										</div>
+										<div class="organizers__desc">
+											<p>CEO SMM-агентства DashDash</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="organizers__nav">
+							<div class="organizers__nav-pagination"></div>
+							<button class="organizers__nav-prev active">
+								<svg width="24" height="24" viewBox="0 0 24 24">
+									<use href="./assets/svg/sprite.svg#left-arrow"></use>
+								</svg>
+								<span>назад</span>
+							</button>
+							<button class="organizers__nav-next">
+								<span>вперёд</span>
+								<svg width="24" height="24" viewBox="0 0 24 24">
+									<use href="./assets/svg/sprite.svg#left-arrow"></use>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</section>
+
+				<section class="buy-now">
+					<div class="container">
+						<div class="buy-now__wrapper">
+							<div class="buy-now__content">
+								<h2 class="buy-now__title page-title-h2">Успей купить</h2>
+								<div class="buy-now__desc">
+									Билеты на «Digital — Оттепель 2025» уже в&nbsp;продаже
+								</div>
+								<div class="buy-now__price">
+									<p>Только сегодня для посетителей осени, цена</p>
+									<span>4590 ₽</span>
+								</div>
+								<button class="payment__open btn btn--orange">
+									Купить билет
+								</button>
+							</div>
+							<div class="buy-now__img">
+								<img src="./assets/img/buy-now.png" alt="" />
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="partners" id="partners">
+					<div class="container">
+						<div class="partners__title page-title-h2">ПАРТНЁРЫ</div>
+						<div class="partners__wrapper">
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/dashdash.svg" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/mayak.png" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/mynfc.svg" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/digital-russia.png" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/rostelekom.png" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/geometria.png" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/dashdash.svg" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/mayak.png" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/dashdash.svg" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/mayak.png" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/mynfc.svg" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/digital-russia.png" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/rostelekom.png" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/geometria.png" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/dashdash.svg" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/mayak.png" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/digital-russia.png" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/rostelekom.png" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/geometria.png" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/dashdash.svg" alt="" />
+							</a>
+							<a href="" class="partners__item">
+								<img src="./assets/img/partners/mayak.png" alt="" />
+							</a>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__top">
+						<div class="footer__info">
+							<div class="footer__logo">
+								<svg width="249" height="64" viewBox="0 0 249 64">
+									<use href="./assets/svg/sprite.svg#footer__logo"></use>
+								</svg>
+							</div>
+							<div class="footer__address">
+								г. Нижний Новгород Академия Маяк им. А.Д. Сахарова,
+								Нижне-Волжская набережная, д. 11
+							</div>
+							<div class="footer__contacts">
+								<div class="footer__tels">
+									<a href="tel:+79960004329">+7 (996) 000-43-29</a>
+									<a href="tel:+78312171703">+7 (831) 217-17-03</a>
+								</div>
+								<div class="footer__mail">
+									<a href="mailto:info@digitalnn.ru">info@digitalnn.ru</a>
+								</div>
+								<div class="footer__social">
+									<a href="">
+										<svg width="40" height="40" viewBox="0 0 40 40">
+											<use href="./assets/svg/sprite.svg#tg"></use>
+										</svg>
+									</a>
+									<a href="">
+										<svg width="40" height="40" viewBox="0 0 40 40">
+											<use href="./assets/svg/sprite.svg#vk"></use>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="footer__map" id="map"></div>
+					</div>
+					<div class="footer__bottom">
+						<div class="footer__copyright">© Digital-Оттепель 2024</div>
+						<div class="footer__legal">
+							<a href="">Политика конфиденциальности</a>
+							<a href="">Оферта</a>
+						</div>
+						<div class="footer__developed">Разработано в R-Top</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<div class="modal get-videos">
+			<div class="get-videos__wrapper">
+				<div class="get-videos__img">
+					<img src="./assets/img/get-videos.png" alt="" />
+				</div>
+				<div class="get-videos__content">
+					<div class="get-videos__desc">
+						Хотите получить 3 видеозаписи с конференции Digital-Оттепель 2024?
+						Наш бот в Telegram вам их отправит
+					</div>
+					<a href="" class="get-videos__link btn btn--orange">Получить</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal become-partner">
+			<form class="become-partner__form" action="" novalidate>
+				<div class="modal__title">Стать партнёром</div>
+				<div class="modal__inputs">
+					<div class="modal__name">
+						<input type="text" name="name" placeholder="ФИО*" required />
+					</div>
+					<div class="modal__company">
+						<input
+							type="text"
+							name="company"
+							placeholder="Компания*"
+							required
+						/>
+					</div>
+					<div class="modal__select">
+						<select name="select">
+							<option value="Информационный партнёр*" selected>
+								Информационный партнёр
+							</option>
+							<option value="Информационный партнёр*">
+								Информационный партнёр1
+							</option>
+							<option value="Информационный партнёр*">
+								Информационный партнёр2
+							</option>
+							<option value="Информационный партнёр*">
+								Информационный партнёр3
+							</option>
+						</select>
+					</div>
+					<div class="modal__email">
+						<input type="email" name="email" placeholder="Email*" required />
+					</div>
+					<div class="modal__tel">
+						<input
+							data-telinput
+							type="text"
+							name="tel"
+							placeholder="+7 (999) 999-99-99*"
+							required
+						/>
+					</div>
+				</div>
+				<div class="modal__personal">
+					<input type="checkbox" name="personal" id="personal1" required />
+					<label for="personal1">
+						Я согласен на обработку персональных данных и ознакомился с
+						<a href="">политикой конфиденциальности</a>
+					</label>
+				</div>
+				<button class="modal__submit btn btn--orange">Перейти к оплате</button>
+			</form>
+			<div class="modal__success">
+				<div class="modal__success-title">Успешно!</div>
+				<div class="modal__success-desc">
+					Благодарим за заявку.
+					<br />
+					Мы свяжемся с вами в ближайшее время
+				</div>
+			</div>
+		</div>
+
+		<div class="modal register">
+			<form class="register__form" action="/include/" novalidate>
+				<div class="modal__title">Регистрация</div>
+				<div class="modal__desc">
+					Введите ваши контактные данные. Это необходимо для вашей регистрации.
+				</div>
+				<div class="modal__inputs">
+					<div class="modal__name">
+						<input type="text" name="name" placeholder="ФИО*" required />
+					</div>
+					<div class="modal__email">
+						<input type="email" name="email" placeholder="Email*" required />
+					</div>
+					<div class="modal__tel">
+						<input
+							type="tel"
+							name="tel"
+							placeholder="+7 (999) 999-99-99*"
+							required
+						/>
+					</div>
+					<div class="modal__company">
+						<input
+							type="text"
+							name="tel"
+							placeholder="Должность,компания*"
+							required
+						/>
+					</div>
+				</div>
+				<div class="modal__personal">
+					<input type="checkbox" name="personal" id="personal2" required />
+					<label for="personal2">
+						Я согласен на обработку персональных данных и ознакомился с
+						<a href="">политикой конфиденциальности</a>
+					</label>
+				</div>
+				<button class="modal__submit btn btn--orange">Перейти к оплате</button>
+			</form>
+			<div class="modal__success">
+				<div class="modal__success-title">Успешно!</div>
+				<div class="modal__success-desc">
+					Регистрация прошла успешно. Вы получили уведомление о регистрации на
+					вашу электронную почту.
+				</div>
+			</div>
+		</div>
+
+		<div class="modal payment">
+			<form class="register__form" action="/include/" novalidate>
+				<div class="modal__title">купить билет</div>
+				<div class="modal__desc">
+					Введите ваши контактные данные. Это необходимо для обеспечения
+					безопасности вашей транзакции.
+				</div>
+				<div class="modal__inputs">
+					<div class="modal__name">
+						<input type="text" name="name" placeholder="ФИО*" required />
+					</div>
+					<div class="modal__email">
+						<input type="email" name="email" placeholder="Email*" required />
+					</div>
+					<div class="modal__tel">
+						<input
+							type="tel"
+							name="tel"
+							placeholder="+7 (999) 999-99-99*"
+							required
+						/>
+					</div>
+					<div class="modal__company">
+						<input
+							type="text"
+							name="tel"
+							placeholder="Должность,компания*"
+							required
+						/>
+					</div>
+				</div>
+				<div class="modal__personal">
+					<input type="checkbox" name="personal" id="personal3" required />
+					<label for="personal3">
+						Я согласен на обработку персональных данных и ознакомился с
+						<a href="">политикой конфиденциальности</a>
+					</label>
+				</div>
+				<input type="hidden" name="type_action" value="PAYMENT">
+				<button class="modal__submit btn btn--orange">Перейти к оплате</button>
+			</form>
+			<div class="modal__success">
+				<div class="modal__success-title">Успешно!</div>
+				<div class="modal__success-desc">
+					Сейчас вы будете перенаправлены на страницу оплаты
+				</div>
+			</div>
+		</div>
+
+		<script src="./assets/plugins/swiper/swiper-bundle.min.js"></script>
+		<script src="./assets/plugins/smoothscroll.min.js"></script>
+		<script src="./assets/plugins/inputmask.min.js"></script>
+		<script src="./assets/plugins/just-validate.min.js"></script>
+		<script src="./js/main.js"></script>
+		<script src="./js/index.js"></script>
+	</body>
+</html>
